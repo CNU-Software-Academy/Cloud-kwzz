@@ -1,0 +1,11 @@
+1. Gitlab 형상관리
+  현재는 public repository의 이미지로 컨테이너를 띄우고 컨테이너 안에 소스코드를 추가해서 사용
+  아예 소스코드가 추가된 이미지를 만드는 작업을 시연
+2. HyperRegistry Push
+  1번 과정을 통해서 생성한 이미지를 HyperRegistry에 추가하는 과정을 가이드 내용 참고해서 HyperCloud에서 시크릿 생성까지 보여주기
+
+3.  HyperCloud Object 생성 과정
+  Deployment/Service/PVC 등 서비스 동작에 필요한 오브젝트들을 생성하는 과정을 보여주면서 서비스를 처음부터 올리는 과정을 보여주면 됨. HPAs도 가능하면 보여주기
+
+4. grafana Monitoring
+  쿼리짜서 대쉬보드 직접 만들거나 import해서 사용량 보여주기
